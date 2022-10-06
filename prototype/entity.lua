@@ -43,7 +43,6 @@ data:extend({
         selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
         drawing_box = {{-1.5, -1.7}, {1.5, 1.5}},
         fast_replaceable_group = "assembling-machine",
-        module_specification = { module_slots = 4, module_info_icon_shift = { 0, 0.5 }, module_info_icon_scale = 0.5 },
         animation = {
             layers = {
                 {
@@ -88,7 +87,7 @@ data:extend({
             }
         },
         crafting_categories = {"fishprocessing"},
-        crafting_speed = 1.75,
+        crafting_speed = 5,
         energy_source = {
             type = "electric",
             usage_priority = "secondary-input",
