@@ -1,11 +1,7 @@
 data:extend({
     {
     type = "recipe-category",
-    name = "electrolysis"
-    },
-    {
-    type = "recipe-category",
-    name = "distillery"
+    name = "fishprocessing"
     },
     {
         type = "recipe",
@@ -19,7 +15,7 @@ data:extend({
         type = "recipe",
         name = "raw-fish",
         energy_required = 60,
-        category = "bioprocessing",
+        category = "fishprocessing",
         enabled = true,
         hidden = true,
         ingredients = {},

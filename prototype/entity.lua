@@ -87,7 +87,7 @@ data:extend({
                 }
             }
         },
-        crafting_categories = {"bioprocessing"},
+        crafting_categories = {"fishprocessing"},
         crafting_speed = 1.75,
         energy_source = {
             type = "electric",
