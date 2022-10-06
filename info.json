@@ -1,0 +1,13 @@
+{
+  "name": "Fish_Farm",
+  "version": "0.0.1",
+  
+  "title": "Fish Farm",
+  "description": "This is just a mess of forks",
+  
+  "author": "fire/FIRE153",
+  "license": "MIT",
+  
+  "dependencies": ["base >= 1.1.6", "? Krastorio2"],
+  "factorio_version": "1.1"
+}
