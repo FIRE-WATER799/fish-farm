@@ -34,7 +34,7 @@ jobs:
         path: 'info.json'
         prop_path: 'name'
     - name: Zip mod
-      run: bash ./.scripts/zip_mod.sh
+      run: bash /zip_mod.sh
     - uses: TGNThump/factorio-publish-mod-action@v1
       with:
         mod_portal_username: ${{ secrets.FACTORIO_USER }}
