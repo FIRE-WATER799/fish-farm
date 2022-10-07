@@ -2,7 +2,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "fish-farm",
-        icon = "__Nihilistzsche_FishFarm__/graphics/icons/fish-farm-icon.png",
+        icon = "__Fish_Farm__/graphics/icons/fish-farm-icon.png",
         icon_size = 32,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {hardness = 0.2, mining_time = 0.5, result = "fish-farm"},
@@ -26,15 +26,15 @@ data:extend({
         working_sound = {
             sound = {
                 {
-                    filename = "__Nihilistzsche_FishFarm__/sounds/fish-farm-sound.ogg",
+                    filename = "__Fish_Farm__/sounds/fish-farm-sound.ogg",
                     volume = 0.8
                 }, {
-                    filename = "__Nihilistzsche_FishFarm__/sounds/fish-farm-sound.ogg",
+                    filename = "__Fish_Farm__/sounds/fish-farm-sound.ogg",
                     volume = 0.8
                 }
             },
             idle_sound = {
-                filename = "__Nihilistzsche_FishFarm__/sounds/fish-farm-sound.ogg",
+                filename = "__Fish_Farm__/sounds/fish-farm-sound.ogg",
                 volume = 0.6
             },
             apparent_volume = 1.5
@@ -46,7 +46,7 @@ data:extend({
         animation = {
             layers = {
                 {
-                    filename = "__Nihilistzsche_FishFarm__/graphics/entity/fish-farm.png",
+                    filename = "__Fish_Farm__/graphics/entity/fish-farm.png",
                     priority = "high",
                     width = 255,
                     height = 266,
@@ -54,7 +54,7 @@ data:extend({
                     line_length = 10,
                     shift = util.by_pixel(0, -0.5),
                     hr_version = {
-                        filename = "__Nihilistzsche_FishFarm__/graphics/entity/fish-farm.png",
+                        filename = "__Fish_Farm__/graphics/entity/fish-farm.png",
                         priority = "high",
                         width = 255,
                         height = 266,
@@ -64,7 +64,7 @@ data:extend({
                         scale = 0.40
                     }
                 }, {
-                    filename = "__Nihilistzsche_FishFarm__/graphics/entity/fish-farm.png",
+                    filename = "__Fish_Farm__/graphics/entity/fish-farm.png",
                     priority = "high",
                     width = 255,
                     height = 266,
@@ -73,7 +73,7 @@ data:extend({
                     draw_as_shadow = true,
                     shift = util.by_pixel(16, 4),
                     hr_version = {
-                        filename = "__Nihilistzsche_FishFarm__/graphics/entity/fish-farm.png",
+                        filename = "__Fish_Farm__/graphics/entity/fish-farm.png",
                         priority = "high",
                         width = 255,
                         height = 266,

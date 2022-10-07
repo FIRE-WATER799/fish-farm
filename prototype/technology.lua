@@ -3,7 +3,7 @@ data:extend(
         {
             type = "technology",
             name = "fish-farm",
-            icon = "__Nihilistzsche_FishFarm__/graphics/research/fish-tech.png",
+            icon = "__Fish_Farm__/graphics/research/fish-tech.png",
             icon_size = 256,
             effects = {
                 {
